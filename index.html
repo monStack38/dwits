@@ -694,7 +694,7 @@
             data-wow-duration="0.5s"
             data-wow-delay="0.25s"
           >
-            <form id="contact" action="" method="post" netlify>
+          <form id="contact" action='https://crm.zoho.com/crm/WebToLeadForm' name=WebToLeads4963371000000359024 method='POST' onSubmit='javascript:document.charset="UTF-8"; return checkMandatory4963371000000359024()' accept-charset='UTF-8'>
               <div class="row">
                 <div class="col-lg-6 offset-lg-3">
                   <div class="section-heading">
@@ -709,68 +709,99 @@
                   <div class="row">
                     <div class="col-lg-6">
                       <fieldset>
+                        <input type='text' style='display:none;' name='xnQsjsdp' value='b389f4feee9b7b11263f9381b19886b1e07ecc6f9f0d50710aa5c423f42eec4b'></input> 
+                        <input type='hidden' name='zc_gad' id='zc_gad' value=''></input> 
+                        <input type='text' style='display:none;' name='xmIwtLD' value='ca8d9bcd0cf09db6a1bce8bccbd164c9d8282808817097c83f2f26d387c7c1a7'></input> 
+                        <input type='text'  style='display:none;' name='actionType' value='TGVhZHM='></input>
+                        <input type='text' style='display:none;' name='returnURL' value='https&#x3a;&#x2f;&#x2f;www.dumaguetewebmasters.com&#x2f;thank-you.html' > </input>
+                        
                         <input
-                          type="name"
-                          name="name"
-                          id="name"
-                          placeholder="Name"
+                          type="text"
+                          name="First Name"
+                          id="First Name"
+                          placeholder="First Name"
                           autocomplete="on"
+                          maxlength="200"
                           required
                         />
                       </fieldset>
                     </div>
                     <div class="col-lg-6">
-                      <fieldset>
+                      <fieldset>                        
                         <input
-                          type="surname"
-                          name="surname"
-                          id="surname"
-                          placeholder="Surname"
+                          type="text"
+                          name="Last Name"
+                          id="Last_Name"
+                          placeholder="Last Name"
                           autocomplete="on"
+                          maxlength="80"
                           required
                         />
                       </fieldset>
                     </div>
                     <div class="col-lg-6">
-                      <fieldset>
+                      <fieldset>                        
                         <input
                           type="text"
                           name="email"
-                          id="email"
+                          id="Email"
                           pattern="[^ @]*@[^ @]*"
                           placeholder="Your Email"
+                          maxlength="100"
                           required=""
                         />
                       </fieldset>
                     </div>
                     <div class="col-lg-6">
-                      <fieldset>
+                      <fieldset>                        
                         <input
-                          type="subject"
-                          name="subject"
-                          id="subject"
+                          type="text"
+                          name="Designation"
+                          id="Designation"
                           placeholder="Subject"
+                          maxlength="100"
                           autocomplete="on"
                         />
                       </fieldset>
                     </div>
                     <div class="col-lg-12">
                       <fieldset>
+                        
                         <textarea
-                          name="message"
+                        id="Description"
+                          name="Description"
                           type="text"
-                          class="form-control"
-                          id="message"
+                          class="form-control"                          
                           placeholder="Message"
                           required=""
                         ></textarea>
                       </fieldset>
                     </div>
-                    <div class="col-lg-12">
+                    <select class='zcwf_col_fld_slt' id='Lead_Source' name='Lead Source' hidden>
+                      <option value='Advertisement'>Advertisement</option>
+			                <option value='Cold&#x20;Call'>Cold Call</option>
+			                <option value='Employee&#x20;Referral'>Employee Referral</option>
+			                <option value='External&#x20;Referral'>External Referral</option>
+                      <option value='Online&#x20;Store'>Online Store</option>
+                      <option value='Twitter'>Twitter</option>
+                      <option value='Facebook'>Facebook</option>
+                      <option value='Partner'>Partner</option>
+                      <option value='Google&#x2b;'>Google&#x2b;</option>
+                      <option value='Public&#x20;Relations'>Public Relations</option>
+                      <option value='Sales&#x20;Email&#x20;Alias'>Sales Email Alias</option>
+                      <option value='Seminar&#x20;Partner'>Seminar Partner</option>
+                      <option value='Internal&#x20;Seminar'>Internal Seminar</option>
+                      <option value='Trade&#x20;Show'>Trade Show</option>
+                      <option value='Web&#x20;Download'>Web Download</option>
+                      <option selected value='Web&#x20;Research'>Web Research</option>
+                      <option value='Chat'>Chat</option>
+                      <option value='-None-'>-None-</option>
+                    </select>
+                    <div class="col-lg-12">                      
                       <fieldset>
                         <button
                           type="submit"
-                          id="form-submit"
+                          id="formsubmit"
                           class="main-button"
                         >
                           Send Message Now
@@ -841,5 +872,241 @@
     <script src="assets/js/animation.js"></script>
     <script src="assets/js/imagesloaded.js"></script>
     <script src="assets/js/custom.js"></script>
+
+<!-- Note :
+   - You can modify the font style and form style to suit your website. 
+   - Code lines with comments Do not remove this code are required for the form to work properly, make sure that you do not remove these lines of code. 
+   - The Mandatory check script can modified as to suit your business needs. 
+   - It is important that you test the modified form before going live.-->
+
+	 <!-- Do not remove this code. -->
+<style>
+html,body{
+	margin: 0px;
+}
+#crmWebToEntityForm.zcwf_lblLeft {
+	width:100%;
+	padding: 25px;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+#crmWebToEntityForm.zcwf_lblLeft * {
+	box-sizing: border-box;
+}
+#crmWebToEntityForm{text-align: left;}
+#crmWebToEntityForm * {
+	direction: ltr;
+}
+.zcwf_lblLeft .zcwf_title {
+	word-wrap: break-word;
+	padding: 0px 6px 10px;
+	font-weight: bold;
+}
+.zcwf_lblLeft .zcwf_col_fld input[type=text], .zcwf_lblLeft .zcwf_col_fld textarea {
+	width: 60%;
+	border: 1px solid #ccc !important;
+	resize: vertical;
+	border-radius: 2px;
+	float: left;
+}
+.zcwf_lblLeft .zcwf_col_lab {
+	width: 30%;
+	word-break: break-word;
+	padding: 0px 6px 0px;
+	margin-right: 10px;
+	margin-top: 5px;
+	float: left;
+	min-height: 1px;
+}
+.zcwf_lblLeft .zcwf_col_fld {
+	float: left;
+	width: 68%;
+	padding: 0px 6px 0px;
+	position: relative;
+	margin-top: 5px;
+}
+.zcwf_lblLeft .zcwf_privacy{padding: 6px;}
+.zcwf_lblLeft .wfrm_fld_dpNn{display: none;}
+.dIB{display: inline-block;}
+.zcwf_lblLeft .zcwf_col_fld_slt {
+	width: 60%;
+	border: 1px solid #ccc;
+	background: #fff;
+	border-radius: 4px;
+	font-size: 12px;
+	float: left;
+	resize: vertical;
+}
+.zcwf_lblLeft .zcwf_row:after, .zcwf_lblLeft .zcwf_col_fld:after {
+	content: '';
+	display: table;
+	clear: both;
+}
+.zcwf_lblLeft .zcwf_col_help {
+	float: left;
+	margin-left: 7px;
+	font-size: 12px;
+	max-width: 35%;
+	word-break: break-word;
+}
+.zcwf_lblLeft .zcwf_help_icon {
+	cursor: pointer;
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	background: #fff;
+	border: 1px solid #ccc;
+	color: #ccc;
+	text-align: center;
+	font-size: 11px;
+	line-height: 16px;
+	font-weight: bold;
+	border-radius: 50%;
+}
+.zcwf_lblLeft .zcwf_row {margin: 15px 0px;}
+.zcwf_lblLeft .formsubmit {
+	margin-right: 5px;
+	cursor: pointer;
+	color: #333;
+	font-size: 12px;
+}
+.zcwf_lblLeft .zcwf_privacy_txt {
+	color: rgb(0, 0, 0);
+	font-size: 12px;
+	font-family: Arial;
+	display: inline-block;
+	vertical-align: top;
+	color: #333;
+	padding-top: 2px;
+	margin-left: 6px;
+}
+.zcwf_lblLeft .zcwf_button {
+	font-size: 12px;
+	color: #333;
+	border: 1px solid #ccc;
+	padding: 3px 9px;
+	border-radius: 4px;
+	cursor: pointer;
+	max-width: 120px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.zcwf_lblLeft .zcwf_tooltip_over{
+	position: relative;
+}
+.zcwf_lblLeft .zcwf_tooltip_ctn{
+	position: absolute;
+	background: #dedede;
+	padding: 3px 6px;
+	top: 3px;
+	border-radius: 4px;word-break: break-all;
+	min-width: 50px;
+	max-width: 150px;
+	color: #333;
+}
+.zcwf_lblLeft .zcwf_ckbox{
+	float: left;
+}
+.zcwf_lblLeft .zcwf_file{
+	width: 55%;
+	box-sizing: border-box;
+	float: left;
+}
+.clearB:after{
+	content:'';
+	display: block;
+	clear: both;
+}
+@media all and (max-width: 600px) {
+	.zcwf_lblLeft .zcwf_col_lab, .zcwf_lblLeft .zcwf_col_fld {
+		width: auto;
+		float: none !important;
+	}
+	.zcwf_lblLeft .zcwf_col_help {width: 40%;}
+}
+</style>
+
+  
+  <script>
+
+function validateEmail4963371000000359024()
+	{
+		var form = document.forms['WebToLeads4963371000000359024'];
+		var emailFld = form.querySelectorAll('[ftype=email]');
+		var i;
+		for (i = 0; i < emailFld.length; i++)
+		{
+			var emailVal = emailFld[i].value;
+			if((emailVal.replace(/^\s+|\s+$/g, '')).length!=0 )
+			{
+				var atpos=emailVal.indexOf('@');
+				var dotpos=emailVal.lastIndexOf('.');
+				if (atpos<1 || dotpos<atpos+2 || dotpos+2>=emailVal.length)
+				{
+					alert('Please enter a valid email address. ');
+					emailFld[i].focus();
+					return false;
+				}
+			}
+		}
+		return true;
+	}
+
+ 	  function checkMandatory4963371000000359024() {
+		var mndFileds = new Array('First Name','Last Name','Description');
+		var fldLangVal = new Array('First\x20Name','Last\x20Name','Message');
+		for(i=0;i<mndFileds.length;i++) {
+		  var fieldObj=document.forms['WebToLeads4963371000000359024'][mndFileds[i]];
+		  if(fieldObj) {
+			if (((fieldObj.value).replace(/^\s+|\s+$/g, '')).length==0) {
+			 if(fieldObj.type =='file')
+				{ 
+				 alert('Please select a file to upload.'); 
+				 fieldObj.focus(); 
+				 return false;
+				} 
+			alert(fldLangVal[i] +' cannot be empty.'); 
+   	   	  	  fieldObj.focus();
+   	   	  	  return false;
+			}  else if(fieldObj.nodeName=='SELECT') {
+  	   	   	 if(fieldObj.options[fieldObj.selectedIndex].value=='-None-') {
+				alert(fldLangVal[i] +' cannot be none.'); 
+				fieldObj.focus();
+				return false;
+			   }
+			} else if(fieldObj.type =='checkbox'){
+ 	 	 	 if(fieldObj.checked == false){
+				alert('Please accept  '+fldLangVal[i]);
+				fieldObj.focus();
+				return false;
+			   } 
+			 } 
+			 try {
+			     if(fieldObj.name == 'Last Name') {
+				name = fieldObj.value;
+ 	 	 	    }
+			} catch (e) {}
+		    }
+		}document.querySelector('.crmWebToEntityForm .formsubmit').setAttribute('disabled', true);
+	}
+
+function tooltipShow4963371000000359024(el){
+	var tooltip = el.nextElementSibling;
+	var tooltipDisplay = tooltip.style.display;
+	if(tooltipDisplay == 'none'){
+		var allTooltip = document.getElementsByClassName('zcwf_tooltip_over');
+		for(i=0; i<allTooltip.length; i++){
+			allTooltip[i].style.display='none';
+		}
+		tooltip.style.display = 'block';
+	}else{
+		tooltip.style.display='none';
+	}
+}
+</script>
+	</form>
+</div>
+
   </body>
 </html>
