@@ -276,22 +276,22 @@ body {
 
 .main-blue-button a {
   display: inline-block;
-  background-color: #ffbc05;
-  font-size: 15px;
-  font-weight: 400;
-  color: #fff;
+  background-color: #00154f;
+  font-size: 20px;
+  font-weight: 900;
+  color: #f49f1c;
   text-transform: capitalize;
   padding: 12px 25px;
   border-radius: 23px;
   letter-spacing: 0.25px;
-  border-bottom: 2px solid #00154f !important;
+  border-bottom: 2px solid #f49f1c !important;
   transition: all 0.3s;
 }
 
 .main-blue-button a:hover {
-  background-color: #150047 !important;
-  color: #4771cb !important;
-  border-bottom: 2px solid #4771cb !important;
+  background-color: #f49f1c !important;
+  color: #00154f !important;
+  border-bottom: 2px solid #33ccc5 !important;
 }
 
 .main-green-button a {
@@ -445,9 +445,9 @@ header
 
 .header-area .main-nav .nav li a {
   display: block;
-  font-weight: 500;
-  font-size: 15px;
-  color: #00154f;
+  font-weight: 400;
+  font-size: 16px;
+  color: #f49f1c;
   text-transform: capitalize;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -466,7 +466,7 @@ header
 
 .background-header .main-nav .nav li:hover a,
 .background-header .main-nav .nav li a.active {
-  color: #f49f1c !important;
+  color: #00154f !important;
   opacity: 1;
 }
 
@@ -1664,24 +1664,24 @@ form#contact textarea::placeholder {
 
 form#contact button {
   display: inline-block;
-  background-color: #f1ba06;
-  font-size: 15px;
-  font-weight: 400;
-  color: #fff;
+  background-color: #00154f;
+  font-size: 18px;
+  font-weight: 900;
+  color: #f49f1c;
   margin-top: 20px;
   text-transform: capitalize;
   padding: 12px 25px;
   border-radius: 23px;
   letter-spacing: 0.25px;
-  border-bottom: 2px solid #4771cb !important;
+  border-bottom: 2px solid #f49f1c !important;
   transition: all 0.3s;
   outline: none;
   border: none;
 }
 
 form#contact button:hover {
-  background-color: #4771cb !important;
-  color: #fff !important;
+  background-color: #f49f1c !important;
+  color: #00154f !important;
   border-bottom: 2px solid #33ccc5 !important;
 }
 
