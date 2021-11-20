@@ -1599,6 +1599,21 @@ contact
   max-width: 32px;
 }
 
+/* 
+---------------------------------------------
+  contact thank you page
+  ---------------------------------------------
+*/
+
+.thank-you {
+  margin-top: 0px;
+  padding: 120px 0px;
+  background-image: url(../images/contact-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
 form#contact {
   position: relative;
   background-color: #fff;
